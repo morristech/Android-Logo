@@ -1,5 +1,5 @@
 body {
-    height: 96vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,10 +18,6 @@ div div {
 .android {
     height: 404px;
     width: 334px;
-    /* margin: 100px auto; */
-    /* background: red; */
-    /* display: block; */
-    /* justify-content: center; */
     padding: 0 auto;
 }
 
@@ -30,8 +26,6 @@ div div {
     height: 100px;
     top: 32px;
     border-radius: 220px 220px 0 0;
-    /* -moz-border-radius: 110px 110px 0 0; //firefox
-    -webkit-border-radius: 110px 110px 0 0; //opera*/
     -webkit-transition: all 0.1s ease-in;
 }
 
@@ -40,12 +34,9 @@ div div {
     background: #fff;
     width: 20px;
     height: 20px;
-    /* border: 3px solid blue; */
     position: absolute;
     top: 42px;
     border-radius: 10px;
-    /* -moz-border-radius: 10px; */
-    /* -webkit-border-radius: 10px; */
 }
 
 .l_eye {
@@ -63,22 +54,16 @@ div div {
     position: absolute;
     top: -34px;
     border-radius: 3px;
-    /* -webkit-border-radius: 3px; */
-    /* -moz-border-radius: 3px; */
 }
 
 .l_ant {
     left: 50px;
     transform: rotate(-30deg);
-    /* -webkit-transform: rotate(-30deg); */
-    /* -moz-transform: rotate(-30deg); */
 }
 
 .r_ant {
     right: 50px;
     transform: rotate(30deg);
-    /* -webkit-transform: rotate(30deg); */
-    /* -moz-transform: rotate(30deg); */
 }
 
 .body {
@@ -103,8 +88,6 @@ div div {
 .r_arm {
     height: 150px;
     border-radius: 25px;
-    /* -moz-border-radius: 25px;
-    -webkit-border-radius: 25px; */
 }
 
 .l_leg,
@@ -112,8 +95,6 @@ div div {
     height: 100px;
     top: 192px;
     border-radius: 0 0 25px 25px;
-    /* -moz-border-radius: 0 0 25px 25px;
-    -webkit-border-radius: 0 0 25px 25px; */
 }
 
 .l_arm {

@@ -1,2 +1,3 @@
 # Android-Logo
-Android Logo made with pure css and html
+
+This is an Android Logo built with HTML & CSS
